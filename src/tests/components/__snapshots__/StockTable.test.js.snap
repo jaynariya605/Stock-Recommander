@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Stock Table correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Date
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Price
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      suggestion
+    </div>
+  </div>
+</div>
+`;

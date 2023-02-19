@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Item correctly 1`] = `
+<div
+  className="list-item"
+>
+  <h3
+    className="list-item__title"
+  >
+    Feb 19 2023
+  </h3>
+  <h3
+    className="list-item__title"
+  >
+    $
+    52
+  </h3>
+  <h3
+    className="list-item__title"
+  >
+    Sell
+  </h3>
+</div>
+`;

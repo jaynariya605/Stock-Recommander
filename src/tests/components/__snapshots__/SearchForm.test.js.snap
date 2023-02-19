@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchForm correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        defaultValue=""
+        onChange={[Function]}
+        placeholder="Search Stock"
+        type="text"
+      />
+      <div
+        className="input-dropdown"
+      />
+    </div>
+    <div
+      className="input-group__item"
+    >
+      <select
+        className="select"
+      >
+        <option
+          key="Facebook"
+          value="date"
+        >
+          Facebook
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;

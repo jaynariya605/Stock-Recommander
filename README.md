@@ -1,3 +1,13 @@
+# Assumptions
+
+This Assignment is not wrote with extensive testing just wrote necassary test cases and also made asumtion of data formate will be as same as developed while fetching from API.\
+Also, Not Documented code as it was not mentioned. Developed Assement by keeping optional requirements in Mind.\
+
+# Recommandation Algorihm
+
+For Recommandation Algorithm As there was not any specific requirement I wrote algorithm with comparing current price with previous 10 days Price and Posts.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

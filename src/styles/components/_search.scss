@@ -1,0 +1,50 @@
+.input-group {
+    display: flex;
+    margin-top: $m-size;
+    margin-bottom: $m-size;
+    flex-direction: column;
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;
+        margin-bottom: $l-size;
+    }
+    
+}
+
+.input-dropdown{
+    display: flex;
+    flex-direction: column;
+    z-index:    10;
+    position:   fixed;
+    width: inherit; 
+    
+    button {
+        border: 1px solid #cacccd;
+        background: white;
+        height: 50px;
+        font-size: $font-size-large;
+        font-weight: 300;
+        padding: $s-size;
+    }
+}
+
+.input-group__item {
+    margin-bottom: $s-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin-right: $s-size;
+        margin-bottom: 0;
+    }
+    
+}
+
+.text-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+}
+
+.select {
+    @extend .text-input;
+}
