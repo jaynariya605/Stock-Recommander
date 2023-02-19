@@ -34,7 +34,7 @@ export const StockTable = ( { getData, state }) => {
             })  
         }
         
-    },[state])
+    },[state, getData])
     
    
   
@@ -69,7 +69,9 @@ const getData = async (symbole) => {
     return data[symbole]
 }
 
-export default () => {
+const HOC  = () => {
     const { state } = useContext(Application)
     return <StockTable getData={getData} state={state} />
 }
+
+export default HOC

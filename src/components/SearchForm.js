@@ -60,6 +60,8 @@ const fetchSearchQuery = (text) => {
 }
 
 
-export default () => {
+const Hoc =  () => {
     return <SearchForm fetchSearchQuery={fetchSearchQuery}/>
 }
+
+export default Hoc

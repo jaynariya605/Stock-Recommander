@@ -13,7 +13,9 @@ export const StockHeader= ({state}) => {
     )
 }
 
-export default ()=> {
+const Hoc = ()=> {
     const { state } = useContext(Application)
     return <StockHeader state={state}/>
 }
+
+export default Hoc
